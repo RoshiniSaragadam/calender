@@ -1,18 +1,32 @@
-.h1{
+.h1 {
     color: rgb(255, 0, 195);
     text-align: center;
-    text-decoration: underline;
-    transition: 2s;  
 }
-.h1:hover{
-    color: aqua;
-    zoom: 125%;
+
+.container {
+    border: 1px solid;
+    width: 30vw;
 }
-.container{
-    width: 40vh;
-    height: 60vh;
-    background-color: gray;
+
+.display {
+    width: 92.5%;
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.button-container {
     display: flex;
-    align-items: center;
-    justify-content: center;  
+    justify-content: space-between;
+}
+
+.button-container input {
+    width: 50px;
+    height: 39px;
+    padding: 14px;
+}
+
+.equal-to {
+    width: 100px !important;
 }
