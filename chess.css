@@ -1,0 +1,35 @@
+
+.white{
+    height: 10vh;
+    width: 10vh;
+    background-color: burlywood;
+}
+.black{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1250px) {
+    .container {
+        width: 40vh;
+        align-items: center;
+    }
+    .black{
+        width: 5vh;
+        height: 5vh;
+    }
+    .white{
+        width: 5vh;
+        height: 5vh;
+    }
+    }
